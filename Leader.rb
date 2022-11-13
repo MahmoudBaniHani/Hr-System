@@ -1,6 +1,7 @@
 require_relative ('Employee')
 class Leader < Employee
     def initialize 
+        @position ="Leader"
         super
     end
     def print_benifit

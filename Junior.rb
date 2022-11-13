@@ -1,5 +1,9 @@
 require_relative ('Employee')
 class Junior < Employee
+    def initialize 
+        @position ="Junior"
+        super
+    end
     def print_benifit
         puts "Junior - Benefits"
         puts "1-Good Salary\n2-Medical Insurance"
